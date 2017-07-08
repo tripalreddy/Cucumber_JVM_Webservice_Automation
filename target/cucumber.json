@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Soap service- Test",
+        "description": "",
+        "id": "poc-for-bdd-using-selenium-java-with-cucumber-jvm-parameter-handling;soap-service--test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 660379165,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have Valid WSDL_URL with active service",
+            "match": {
+              "location": "testSoapServiceDef.i_have_Valid_WSDL_URL_with_active_service()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1041880,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have REQUEST_XML and EXPECTED_RESPONSE_XML details",
+            "match": {
+              "location": "testSoapServiceDef.i_have_REQUEST_XML_and_EXPECTED_RESPONSE_XML_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1436764900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send request_xml to Endpoint URL or web_service",
+            "match": {
+              "location": "testSoapServiceDef.i_send_request_xml_to_Endpoint_URL_or_web_service()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 629565063,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get ACTUAL_RESPONSE_XML",
+            "match": {
+              "location": "testSoapServiceDef.i_get_ACTUAL_RESPONSE_XML()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109498431,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it exactly match with expected EXPECTED_RESPONSE_XML",
+            "match": {
+              "location": "testSoapServiceDef.it_exactly_match_with_expected_EXPECTED_RESPONSE_XML()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@soap"
+          }
+        ]
+      }
+    ],
+    "name": "POC for BDD using Selenium java with cucumber-jvm Parameter handling",
+    "description": "",
+    "id": "poc-for-bdd-using-selenium-java-with-cucumber-jvm-parameter-handling",
+    "keyword": "Feature",
+    "uri": "features/testSoapService.feature"
+  }
+]
